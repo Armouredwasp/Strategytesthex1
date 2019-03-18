@@ -8,11 +8,9 @@ public class Tileclick : MonoBehaviour
 {
     public TileBase tile4;
     Tilemap Terrainmap;
-    private Vector3 pa;
     // Start is called before the first frame update
     void Start()
     {
-        Vector3Int PP = new Vector3Int (0, 0, 0);
         Terrainmap = GetComponent<Tilemap>();
     }
     
