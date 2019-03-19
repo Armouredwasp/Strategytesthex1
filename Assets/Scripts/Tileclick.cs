@@ -22,7 +22,7 @@ public class Tileclick : MonoBehaviour
         {
             Vector3Int Clickedcell = Terrainmap.WorldToCell(Mousemovement.mouseclickedposition);
             Terrainmap.SetTile(Clickedcell, tile4);
-            Debug.Log(Clickedcell);
+            //Debug.Log(Clickedcell);
 
 
         };

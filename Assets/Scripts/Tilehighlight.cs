@@ -25,7 +25,7 @@ public class Tilehighlight : MonoBehaviour
             highlightmap.SetTile(Previouscell, null);
             highlightmap.SetTile(Clickedcell, highlight);
             Previouscell = Clickedcell;
-            Debug.Log(Clickedcell);
+            //Debug.Log(Clickedcell);
 
 
         };

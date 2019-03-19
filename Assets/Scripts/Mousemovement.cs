@@ -18,7 +18,7 @@ public class Mousemovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             Vector3 p = Input.mousePosition;
             mouseclickedposition =Camera.main.ScreenToWorldPoint(p);
-            Debug.Log("a");
+            //Debug.Log("a");
         };
     }
 }
