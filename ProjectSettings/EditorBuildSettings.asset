@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Main menu.unity
+    guid: e169159dd7b6cf44193646c4bd1bd747
+  - enabled: 0
+    path: Assets/Scenes/Main game screen.unity
+    guid: 0abde571bd586154ea2d1ffa161ac756
+  - enabled: 0
+    path: Assets/Scenes/debugMapeditor.unity
+    guid: 6076049437cf7e14481c4207f634f8cd
   m_configObjects: {}
