@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//国のデータについて保存する構造体
-public struct Countrystruct
+
+public class Countryclass
 {
     public int countryID;
     public string countryname;
@@ -18,4 +18,15 @@ public struct Countrystruct
     public double foodproduction;
     public double industrialmaterialproduction;
     public double Currentindustrialmaterial;
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
