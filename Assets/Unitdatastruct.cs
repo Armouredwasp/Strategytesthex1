@@ -20,4 +20,8 @@ public struct Unitdatastruct
     public double Unitattack;
     public double Unitdefence;
     public double Unitbreakthrough;
+    public double Unitmaxmen;
+    public double Unitcurrentmen;
+    public double Unitmaxequipment;
+    public double Unitcurrentequipment;
 }

@@ -23,8 +23,8 @@ public class Armyunit : MonoBehaviour
         unitposition = Gamemanage.Unitsdataarray[UnitID].Unitposition;
         Gamemanage.Unitsdataarray[UnitID].Existornot = true;
         Gamemanage.Unitsdataarray[UnitID].Builtornot = true;
-        Gamemanage.Unitsdataarray[UnitID].Unitmaxmovementpoint = 3;
-        Gamemanage.Unitsdataarray[UnitID].Unitcurrentmovementpoint = 3;
+        Gamemanage.Unitsdataarray[UnitID].Unitmaxmovementpoint = 8;
+        Gamemanage.Unitsdataarray[UnitID].Unitcurrentmovementpoint = 8;
         Gamemanage.Unitsdataarray[UnitID].Unitmaxstrength = 100;
         Gamemanage.Unitsdataarray[UnitID].Unitcurrentstrength = 100;
     }
